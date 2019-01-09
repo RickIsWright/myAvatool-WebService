@@ -91,9 +91,9 @@ namespace SSMHAVWS
 
             // These are the ID numbers for the Service Code, Appointment Start Time, and Appointment End Time fields.
             // You will need to modify these to match your environment.
-            const string serviceCodeField = "10002";
+            const string serviceCodeField          = "10002";
             const string appointmentStartTimeField = "10107";
-            const string appointmentEndTimeField = "10108";
+            const string appointmentEndTimeField   = "10108";
 
             // Placeholders for the Service Code and Appointment Start/End times.
             var serviceCode = 0;
@@ -128,9 +128,9 @@ namespace SSMHAVWS
             }
 
             // Placeholders for Service Code details.
-            var serviceCodeName = string.Empty;
-            var serviceCodeMinDuration = 0;
-            var serviceCodeMaxDuration = 0;
+            var serviceCodeName         = string.Empty;
+            var serviceCodeMinDuration  = 0;
+            var serviceCodeMaxDuration  = 0;
             var serviceCodeMinSoftLimit = 0;
             var serviceCodeMaxSoftLimit = 0;
 
@@ -151,18 +151,18 @@ namespace SSMHAVWS
             {
                 case 10:
                     // No maximum duration, but if it's >60, warn the user. Currently scheduled in Avatar.
-                    serviceCodeName = "Individual Therapy";
-                    serviceCodeMinDuration = 38;
-                    serviceCodeMaxDuration = 0;
+                    serviceCodeName         = "Individual Therapy";
+                    serviceCodeMinDuration  = 38;
+                    serviceCodeMaxDuration  = 0;
                     serviceCodeMinSoftLimit = 0;
                     serviceCodeMaxSoftLimit = 60;
                     break;
 
                 case 15:
                     // Currently scheduled in Avatar.
-                    serviceCodeName = "Individual Therapy";
-                    serviceCodeMinDuration = 16;
-                    serviceCodeMaxDuration = 37;
+                    serviceCodeName         = "Individual Therapy";
+                    serviceCodeMinDuration  = 16;
+                    serviceCodeMaxDuration  = 37;
                     serviceCodeMinSoftLimit = 0;
                     serviceCodeMaxSoftLimit = 0;
                     break;
@@ -170,9 +170,9 @@ namespace SSMHAVWS
                 case 20:
                 case 25:
                     // Per event, no warning necessary. Currently scheduled in Avatar.
-                    serviceCodeName = "Family/Couple Therapy";
-                    serviceCodeMinDuration = 45;
-                    serviceCodeMaxDuration = 0;
+                    serviceCodeName         = "Family/Couple Therapy";
+                    serviceCodeMinDuration  = 45;
+                    serviceCodeMaxDuration  = 0;
                     serviceCodeMinSoftLimit = 0;
                     serviceCodeMaxSoftLimit = 90;
                     break;
