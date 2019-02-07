@@ -38,3 +38,6 @@ https://<WEB_SERVER>/AVWS/Scheduling.asmx?WSDL`
 10. Click "Return to Designer"
 11. Click "Save"
 12. Click "Submit"
+
+## The myAvatool Project
+The myAvatool Web Service is part of the myAvatool project. Please visit the [myAvatool repository](https://github.com/APrettyCoolProgram/myAvatool) for more utilities you can use with myAvatar.
