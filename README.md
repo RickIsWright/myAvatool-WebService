@@ -11,10 +11,6 @@
     </a>
 </h1>
 
-<h2>
-    A custom web service for Netsmart's myAvatar EHR
-</h2>
-
 This project is kind of old, and I haven't worked on it in a while. But it works! And it's really, really commented.
 
 ## Features
