@@ -5,7 +5,7 @@
     <br>
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
     <img src="https://img.shields.io/badge/.NET-4.6.1%2B-blue.svg" alt=".NET version">
-    <img src="https://img.shields.io/badge/Development%20Status-Active-brightgreen.svg" alt="Development status">
+    <img src="https://img.shields.io/badge/Development%20Status-On%20hold-orange.svg" alt="Development status">
     <a href="https://help.github.com/articles/about-pull-requests/">
         <img src="https://img.shields.io/badge/Pull Requests-Go%20for%20it-brightgreen.svg?style=shields" alt="Pull requests">
     </a>
