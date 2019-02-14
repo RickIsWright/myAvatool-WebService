@@ -1,2 +1,2 @@
 *.cs linguist-language=C#
-static/src/* linguist-vendored
+src/* linguist-vendored
