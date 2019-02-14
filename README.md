@@ -4,6 +4,7 @@
     myAvatool Web Service
     <br>
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
+    <img src="https://img.shields.io/badge/Language-C%23-blue.svg" alt="Language">
     <img src="https://img.shields.io/badge/.NET-4.6.1%2B-blue.svg" alt=".NET version">
     <img src="https://img.shields.io/badge/Development%20Status-On%20hold-orange.svg" alt="Development status">
     <a href="https://help.github.com/articles/about-pull-requests/">
