@@ -1,3 +1,0 @@
-﻿Soft limit w/no duration
-Update code comments
-Codes are in external file
