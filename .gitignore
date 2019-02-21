@@ -1,7 +1,12 @@
 ## .gitignore for A Pretty Cool Program projects
-## Version 190219
+## Version 190220
 ## Most of this has been copy/pasted from https://github.com/github/gitignore
 ## Changelog at EOF
+
+################################################################################
+## A Pretty Cool Program
+################################################################################
+*_[Ss]cratch/
 
 ################################################################################
 ## VisualStudio
@@ -491,8 +496,11 @@ dmypy.json
 
 ## Changelog
 ##
+## 192021
+##  Added *.[Ss]cratch/  
+##
 ## 190219
 ##  Initial release
-##  Added Visual Studio 2017
-##  Added Python
-##  Added Go
+##  Added https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+##  Added https://github.com/github/gitignore/blob/master/Python.gitignore
+##  Added https://github.com/github/gitignore/blob/master/Go.gitignore
